@@ -1,0 +1,13 @@
+#container{
+    display: flex;
+    flex-direction: column;
+}
+
+#containerI{
+    display: flex
+}
+
+#navigation{
+    display: flex;
+    justify-content: center;
+}
