@@ -11,3 +11,19 @@
     display: flex;
     justify-content: center;
 }
+
+img{
+    height: 20px;
+}
+
+.lefticon{
+    margin-right: auto;
+}
+
+.righticon{
+    margin-left: auto;
+}
+
+input{
+    margin-right: 10px;
+}
