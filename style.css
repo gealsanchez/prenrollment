@@ -1,29 +1,46 @@
-#container{
+#container {
     display: flex;
     flex-direction: column;
 }
 
-#containerI{
-    display: flex
+#containerI {
+    display: flex;
 }
 
-#navigation{
+#navigation {
     display: flex;
     justify-content: center;
 }
 
-img{
+img {
     height: 20px;
 }
 
-.lefticon{
+.lefticon {
     margin-right: auto;
 }
 
-.righticon{
+.righticon {
     margin-left: auto;
 }
 
-input{
+input {
+    width: 500px;
     margin-right: 10px;
+}
+
+div {
+    margin-bottom: 10px;
+}
+
+#suggestion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 70px;
+    margin-left: auto;
+}
+
+#divplayer{
+    padding-left: 50px;
 }
