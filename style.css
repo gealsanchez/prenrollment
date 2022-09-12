@@ -4,7 +4,7 @@
 }
 
 #containerI {
-    display: flex;
+    display: flex;   
 }
 
 #navigation {
@@ -25,7 +25,8 @@ img {
 }
 
 input {
-    width: 500px;
+    width: 700px;
+    height: 20px;
     margin-right: 10px;
 }
 
@@ -39,8 +40,12 @@ div {
     align-items: center;
     padding-right: 70px;
     margin-left: auto;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #divplayer{
     padding-left: 50px;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+

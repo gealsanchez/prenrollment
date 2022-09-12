@@ -47,11 +47,19 @@ vidplar.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyro
 vidplar.allowFullscreen = true;
 divplay.appendChild(vidplar)
 
+const title = document.createElement('h1');
+title.textContent="Learn Full Stack Web development"
+divplay.appendChild(title)
+
 //***************** */ suggestions div
 
 const divsug = document.createElement('div');
 divsug.id = "suggestion"
 divcon.appendChild(divsug);
+
+const titleCSS = document.createElement('h4');
+titleCSS.textContent="Learn CSS"
+divsug.appendChild(titleCSS)
 
 const vidsug = document.createElement('iframe')
 vidsug.src = "https://www.youtube.com/embed/1PnVor36_40"
@@ -62,6 +70,10 @@ vidsug.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyros
 vidsug.allowFullscreen = true;
 divsug.appendChild(vidsug)
 
+const titleHTML = document.createElement('h4');
+titleHTML.textContent="Learn HTML"
+divsug.appendChild(titleHTML)
+
 const vidsugI = document.createElement('iframe')
 vidsugI.src = "https://www.youtube.com/embed/pQN-pnXPaVg"
 vidsugI.width = "240"
@@ -70,6 +82,10 @@ vidsugI.title = "Youtube Video Player"
 vidsugI.allow = "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
 vidsugI.allowFullscreen = true;
 divsug.appendChild(vidsugI)
+
+const titleJS = document.createElement('h4');
+titleJS.textContent="Learn Javascript"
+divsug.appendChild(titleJS)
 
 const vidsugII = document.createElement('iframe')
 vidsugII.src = "https://www.youtube.com/embed/PkZNo7MFNFg"
