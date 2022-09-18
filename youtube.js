@@ -48,8 +48,26 @@ vidplar.allowFullscreen = true;
 divplay.appendChild(vidplar)
 
 const title = document.createElement('h1');
-title.textContent="Learn Full Stack Web development"
+title.textContent = "Full Stack Web development"
 divplay.appendChild(title)
+
+const views = document.createElement('p');
+views.textContent = "Number of Views: 5200000"
+divplay.appendChild(views)
+
+const divdesc = document.createElement('div');
+divdesc.id = "divdes";
+divplay.appendChild(divdesc);
+
+const imgIV = document.createElement('img')
+imgIV.className = "lefticon"
+imgIV.id="descon"
+imgIV.src = "develop.jpg"
+divdesc.appendChild(imgIV)
+
+const desc = document.createElement('p');
+desc.textContent = "Welcome to the Full Stack Web Development Tutorial. It refers to the development of both front end(client side) and back end(server side) portions of web application. Full stack web developers have the ability to design complete web applications and websites"
+divdesc.appendChild(desc)
 
 //***************** */ suggestions div
 
@@ -58,7 +76,7 @@ divsug.id = "suggestion"
 divcon.appendChild(divsug);
 
 const titleCSS = document.createElement('h4');
-titleCSS.textContent="Learn CSS"
+titleCSS.textContent = "Learn CSS"
 divsug.appendChild(titleCSS)
 
 const vidsug = document.createElement('iframe')
@@ -71,7 +89,7 @@ vidsug.allowFullscreen = true;
 divsug.appendChild(vidsug)
 
 const titleHTML = document.createElement('h4');
-titleHTML.textContent="Learn HTML"
+titleHTML.textContent = "Learn HTML"
 divsug.appendChild(titleHTML)
 
 const vidsugI = document.createElement('iframe')
@@ -84,7 +102,7 @@ vidsugI.allowFullscreen = true;
 divsug.appendChild(vidsugI)
 
 const titleJS = document.createElement('h4');
-titleJS.textContent="Learn Javascript"
+titleJS.textContent = "Learn Javascript"
 divsug.appendChild(titleJS)
 
 const vidsugII = document.createElement('iframe')
