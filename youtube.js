@@ -11,6 +11,7 @@ divnav.appendChild(img)
 
 const input = document.createElement('input')
 input.setAttribute = ("type", "text")
+input.placeholder="Search"
 divnav.appendChild(input)
 
 const imgI = document.createElement('img')
@@ -68,6 +69,11 @@ divdesc.appendChild(imgIV)
 const desc = document.createElement('p');
 desc.textContent = "Welcome to the Full Stack Web Development Tutorial. It refers to the development of both front end(client side) and back end(server side) portions of web application. Full stack web developers have the ability to design complete web applications and websites"
 divdesc.appendChild(desc)
+
+const inputcomm = document.createElement('input')
+inputcomm.setAttribute = ("type", "text")
+inputcomm.placeholder="Add a comment"
+divplay.appendChild(inputcomm)
 
 //***************** */ suggestions div
 
